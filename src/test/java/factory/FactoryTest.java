@@ -1,3 +1,5 @@
+package factory;
+
 import fr.diginamic.entities.Additif;
 import fr.diginamic.entities.Allergene;
 import fr.diginamic.entities.Element;

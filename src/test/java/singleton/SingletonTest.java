@@ -1,3 +1,5 @@
+package singleton;
+
 import fr.diginamic.singleton.ConfigSingleton;
 import org.junit.jupiter.api.Test;
 
