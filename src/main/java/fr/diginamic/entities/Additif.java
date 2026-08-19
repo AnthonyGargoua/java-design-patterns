@@ -1,4 +1,6 @@
-package fr.diginamic.factory;
+package fr.diginamic.entities;
+
+import fr.diginamic.enums.UNITE;
 
 public class Additif extends Element {
 
