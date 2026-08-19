@@ -2,21 +2,19 @@ package fr.diginamic.singleton;
 
 import java.util.ResourceBundle;
 
-public class ConfigSingleton {
+public class Singleton {
 
-    private static ConfigSingleton instance;
+    private static Singleton instance;
 
     private ResourceBundle configuration;
 
-    private ConfigSingleton() {
+    private Singleton() {
         configuration = ResourceBundle.getBundle("configuration");
-        String valeur = configuration.getString("db.url");
-        System.out.println(valeur);
     }
 
-    public static ConfigSingleton getInstance() {
+    public static Singleton getInstance() {
         if (instance == null) {
-            instance = new ConfigSingleton();
+            instance = new Singleton();
         }
         return instance;
     }
